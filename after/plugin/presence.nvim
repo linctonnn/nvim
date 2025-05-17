@@ -1,0 +1,8 @@
+require("presence").setup({
+  neovim_image_text = "Ngoding sampe pagi 💻🌙",
+  buttons = {
+    { label = "Lihat repo", url = "https://github.com/username/repo" },
+    { label = "Follow IG", url = "https://instagram.com/username" },
+  }
+})
+

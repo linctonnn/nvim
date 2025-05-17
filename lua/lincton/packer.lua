@@ -48,4 +48,17 @@ return require('packer').startup(function(use)
 			"rafamadriz/friendly-snippets", 
 		}
 	}
+    use {
+        'andweeb/presence.nvim',
+        config = function()
+            require("presence").setup({
+                -- opsional: bisa dikustom
+                auto_update         = true,
+                neovim_image_text  = "Neovim Coder 😎",
+                main_image          = "neovim", -- atau "file"
+                enable_line_number = true,
+            })
+        end
+    }
+
 end)
