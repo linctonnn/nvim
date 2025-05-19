@@ -22,6 +22,5 @@ presence.setup({
     enable_line_number  = true,
     editing_text        = "Ngedit : %s",
     file_explorer_text  = "Folder : %s",
-    git_commit_text     = "Nulis commit",
     workspace_text      = "Lagi di folder %s",
 })
